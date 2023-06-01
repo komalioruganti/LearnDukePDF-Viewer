@@ -1,4 +1,4 @@
-import NoteDisplay from './Components/pdfDisplay';
+
 import './App.css';
 import ReviewBox from './Components/Review';
 import pdfDisplay from './Components/pdfDisplay';

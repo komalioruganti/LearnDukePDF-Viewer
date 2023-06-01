@@ -16,7 +16,7 @@
   overflow-y:scroll;
   width:70%;
 }
-.review-box{
+.review-box,.publishedBy-box,.similar-notes{
   width:90%;
   height:70%;
   background-color:white;
@@ -115,3 +115,4 @@ width: 100%;
 background-color: aliceblue;
 height:3%;
 }
+
