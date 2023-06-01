@@ -1,7 +1,7 @@
 import React from 'react'
 import miniTag from "./miniTag"
 
-const Note = () => {
+export default function Note() {
   return (
     <div className="note">
        <div className='pdf-cover-img'></div>
@@ -14,4 +14,3 @@ const Note = () => {
   )
 }
 
-export default Note
