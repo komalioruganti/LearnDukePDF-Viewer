@@ -1,11 +1,22 @@
-import logo from './logo.svg';
+import NoteDisplay from './Components/pdfDisplay';
 import './App.css';
-import Reviews from './Components/Reviews';
+import ReviewBox from './Components/Review';
+import pdfDisplay from './Components/pdfDisplay';
+import publishedBy from './Components/publishedBy';
 
 function App() {
   return (
     <div className="App">
-      <Reviews/>
+    <div className='conatiner'>
+    <div className='left-section'>
+    <ReviewBox/>
+    <publishedBy></publishedBy>
+    </div>
+    <div  className='right-section'>
+    Chemistry Notes
+<pdfDisplay/>
+    </div>
+      </div>
     </div>
   );
 }

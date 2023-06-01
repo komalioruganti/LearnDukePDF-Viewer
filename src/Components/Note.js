@@ -1,22 +1,15 @@
 import React from 'react'
-import Tag from './Tag'
-import './Note.css'
+import miniTag from "./miniTag"
 
 const Note = () => {
   return (
-    <div className="noteCont">
-        <div className='imgCont'>
-            {/* <img src="" alt="" /> */}
-            <p>IMAGE</p>
-        </div>
-        <div className='description'>
-            <p className='heading'>XYZ</p>
-            <p className='authorName'>XYZ</p>
-            <span><Tag text="IFS" /><Tag text="IAS" /><Tag text="INDIA" /></span>
-            <span>
-                <img src="" alt="starImage" /> 145
-            </span>
-        </div>
+    <div className="note">
+       <div className='pdf-cover-img'></div>
+       <div className='note-content'>
+        <div className='note-title'>UPSC IFSC PREVIOUS PAPER PDF | INDIAN FOREST SERVICE MAIN</div>
+        <miniTag></miniTag>
+        ⭐   145
+       </div>
     </div>
   )
 }
