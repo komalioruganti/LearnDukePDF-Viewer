@@ -7,16 +7,16 @@
   margin-right:auto;
   margin-top:30px;
 }
-.left-section{
+/* .left-section{
   width:30%;
   background-color: rgb(12, 31, 48);
   overflow-y:scroll
-}
+} */
 .right-section{
   overflow-y:scroll;
   width:70%;
 }
-.review-box,.publishedBy-box,.similar-notes{
+/* .review-box,.publishedBy-box,.similar-notes{
   width:90%;
   height:70%;
   background-color:white;
@@ -24,7 +24,7 @@
   margin-right:auto;
   margin-top:5%;
   border-radius: 2px;
-}
+} */
 .NoteDisplay-conatiner{
   width: 300px;
   height:500px;
@@ -44,17 +44,17 @@
   margin-left: auto;
   margin-right: auto;
 }
-.pdf-title{
+/* .pdf-title{
   font-size:14px;
 font-weight:400;
 padding-top: 50px;
 
-}
+} */
 .tag-box{
   display: flex;
   height:5%;
 }
-.tag{
+/* .tag{
   width:30px;
   background-color: orange;
   height:20px;
@@ -63,7 +63,7 @@ padding-top: 50px;
   font-size: small;
   border-radius: 10px;
   text-align: center;
-}
+} */
 .mini-tag{
   width:10px;
   background-color: orange;
@@ -82,25 +82,25 @@ padding-top: 50px;
 .total-pages,.dot,.date{
   margin-right: 8%;
 }
-.dot{
+/* .dot{
   width: 10%;
   height:10%;
-  border-radius: 10%;
+  border-radius: 10%;po
   background-color: orange;
-}
+} */
 hr{
 background-color: rgb(232, 232, 232);
   width:90%;
   border: 0;
 height:1px;
 }
-.post-input{
+/* .post-input{
   width:92.5%;
   border-color: orange;
   border-radius: 4px;
   height: 50px;
-}
-.post-button{
+} */
+/* .post-button{
   background-color: orange;
   border:0;
   height:25px;
@@ -109,7 +109,7 @@ height:1px;
   margin-top:10px;
   color:white;
   font-size: smaller;
-}
+} */
 .more-reviews{
 width: 100%;
 background-color: aliceblue;
